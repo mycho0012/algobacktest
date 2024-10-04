@@ -1,9 +1,8 @@
-
-python-dotenv==1.0.0
 pyupbit==1.0.0
 pandas==1.5.3
-plotly==5.15.0
-streamlit==1.39.0
+plotly==5.14.1
+streamlit==1.22.0
+streamlit-option-menu
 numpy==1.24.3
 requests==2.31.0
-notion-client==2.0.0
+
