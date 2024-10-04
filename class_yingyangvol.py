@@ -1,4 +1,5 @@
-from tkinter import NO
+# class_yingyangvol.py
+
 import numpy as np
 import pandas as pd
 import pyupbit  
@@ -8,6 +9,8 @@ import os
 import requests
 from notion_client import Client
 
+# tkinter의 NO를 대체할 상수 정의 (필요 시)
+NO = False  # 또는 필요한 다른 값으로 정의
 
 class YingYangTradingBot:
    
@@ -127,7 +130,7 @@ class YingYangTradingBot:
             signals.loc[i, 'Position'] = position
 
         self.signals = signals
-      
+          
         return self.signals
     
 
@@ -477,4 +480,3 @@ class YingYangTradingBot:
         )
 
         return fig
-
